@@ -1,20 +1,24 @@
 # Web implementation of PythonBuddy + Sandbox
 
-### Uses [Docker Python Sandbox](https://github.com/christophetd/docker-python-sandbox) library to Sandbox [PythonBuddy](https://github.com/ethanchewy/PythonBuddy).
+Uses [Docker Python Sandbox](https://github.com/christophetd/docker-python-sandbox) library to Sandbox [PythonBuddy](https://github.com/ethanchewy/PythonBuddy).
 
-### Created off of [christophetd/code-execution-api-demo](https://github.com/christophetd/code-execution-api-demo)
+Created off of [christophetd/code-execution-api-demo](https://github.com/christophetd/code-execution-api-demo)
 
-#### Prerequisite:
+### Prerequisite:
 * Install Docker and Node.js
 * Running on Linux Server
 
-#### System requirements:
+### System requirements:
 * 4GB of Storage
 * 1GB of RAM
 
-#### Steps:
-1. `git clone https://github.com/ethanchewy/PythonBuddySandbox`
-2. `git clone https://github.com/ethanchewy/PythonBuddySandboxed`
+### Steps:
+
+#### 1. Clone PythonBuddySandbox
+    `git clone https://github.com/ethanchewy/PythonBuddySandbox`
+    
+#### 2. Clone PythonBuddySandboxed
+    `git clone https://github.com/ethanchewy/PythonBuddySandboxed`
 3. `cd PythonBuddySandbox/container`
 4. `docker build -t christophetd/docker-sandbox .`
 5. `cd`
