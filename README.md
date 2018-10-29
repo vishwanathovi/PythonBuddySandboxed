@@ -41,9 +41,9 @@ Created off of [christophetd/code-execution-api-demo](https://github.com/christo
 #### 9. Start
     `sudo npm start`
 
-
-`*#### Remember!!
-#### Change `config.js`'s `config.security.secret`to something different and change static/js/javascript.js in PythonBuddySandboxed to the same secret!!*`
+`
+#### *Remember!! Change `config.js`'s `config.security.secret`to something different and change static/js/javascript.js in PythonBuddySandboxed to the same secret!!*
+`
 
 Navigate to `localhost:3000 `to see PythonBuddy Dockerized!
 
