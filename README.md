@@ -1,18 +1,18 @@
-Uses [Docker Python Sandbox](https://github.com/christophetd/docker-python-sandbox) library to Sandbox [PythonBuddy](https://github.com/ethanchewy/PythonBuddy).
+# Web implementation of PythonBuddy + Sandbox
 
-Created off of [christophetd/code-execution-api-demo] (https://github.com/christophetd/code-execution-api-demo)
+### Uses [Docker Python Sandbox](https://github.com/christophetd/docker-python-sandbox) library to Sandbox [PythonBuddy](https://github.com/ethanchewy/PythonBuddy).
 
-# Uses Docker containers to run Pylint + PythonBuddy
+### Created off of [christophetd/code-execution-api-demo](https://github.com/christophetd/code-execution-api-demo)
 
-Prereqs:
+#### Prerequisite:
 * Install Docker and Node.js
 * Running on Linux Server
 
-System requirements:
+#### System requirements:
 * 4GB of Storage
 * 1GB of RAM
 
-Steps:
+#### Steps:
 1. `git clone https://github.com/ethanchewy/PythonBuddySandbox`
 2. `git clone https://github.com/ethanchewy/PythonBuddySandboxed`
 3. `cd PythonBuddySandbox/container`
